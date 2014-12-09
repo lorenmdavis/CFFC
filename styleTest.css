@@ -1,0 +1,295 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+/* Write your CSS styles here */
+
+body {background:white;}
+
+p {font-family:sans-serif;}
+
+.a{
+  color:black;
+}
+
+h2{
+  color:black;
+  text-align:center;
+  font-size:25px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px 0 10px 0;
+}
+.col-md-6  {
+  padding:0;
+  border:2px solid cadetblue;
+}
+.col-md-12 {
+  padding:0;
+}
+
+/* Top Contact Bar */
+.top-contact {
+  width:100%;
+  height:60px;
+  background-color:silver;
+  text-align:right;
+}
+.facebook {
+  height:40px;
+  width:40px;
+  background: url(images/facebook.png) no-repeat;
+  display:inline-block;
+  margin:10px 0 10px 20px;
+}
+.facebook:hover {
+  background-position:0 -40px;
+}
+.pinterest {
+  height:40px;
+  width:40px;
+  background: url(images/pinterest.png) no-repeat;
+  display:inline-block;
+  margin:10px;
+}
+.pinterest:hover {
+  background-position:0 -40px;
+}
+.top-contact-text {
+  display:inline-block;
+  color: white;
+  vertical-align:25px;
+  margin-right:15px;
+}
+
+/* Logo & Links */
+.header-section{
+  background-color:white;
+}
+
+
+.logo {
+  width:75%;
+  height:50%;
+  margin:0 auto;
+  vertical-align: middle;
+}
+
+/* Nav Bar */
+.navbar{
+  width:75%;
+  border:none;
+  vertical-align: middle;
+  background-color:lightgrey;
+  position: relative;
+  margin:10% 0;
+
+}
+
+.menu-navbar .menu-dropdown{
+  background:white;
+}
+
+.links .a{
+  line-height:40px;
+  width:100px;
+  padding: 0 5px;
+  color:black;
+  text-align:center;
+  font-size:25px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.divider {
+height: 1px;
+margin: 9px 0;
+overflow: hidden;
+background-color: #e5e5e5;
+}
+
+/* Banner */
+
+.banner{
+  width:100%;
+  height:300px;
+  background: url(images/Thailand-Ko-Phangan.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.banner-tag{
+  width:309px;
+  z-index: 1;
+  position: absolute;
+  left:50%;
+  margin-left: -150px;
+  top:50%;
+  margin-top: -115px;
+}
+
+/* 3 Categories */
+
+.category {
+  height:150px;
+  width:90%;
+  display: block;
+  margin:20px auto 0;
+  background-color:turquoise;
+
+}
+.category-school{
+  height:150px;
+  width:90%;
+  display: block;
+  margin:20px auto 0;
+  background-image: url(images/sandalStripe.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color:white;
+}
+
+.category-title {
+  color:white;
+  text-align:center;
+  font-size:25px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 5px 0;
+  text-transform:uppercase;
+  letter-spacing:2px;
+}
+
+.category-title:hover{
+  color:MidnightBlue;
+  }
+
+.text-background {
+  height:50px;
+  width:90%;
+  margin:0 auto;
+  background-color:cadetblue;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius:  6px;
+}
+
+/* Twitter */
+
+.twitter {
+  margin-top:20px;
+  width:100%;
+  height:90px;
+  background-color:gainsboro;
+}
+
+.twitter-title{
+  color:black;
+  text-align:left;
+  font-size:25px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px 0 10px 10px;
+}
+
+/* Company Info */
+.info-title {
+  color:cadetblue;
+  text-align:center;
+  font-size:30px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px 0;
+  font-weight:bolder;
+  border-bottom:2px solid cadetblue;
+  margin-bottom:10px;
+}
+
+.info-section {
+  height:200px;
+  width:90%;
+  display: block;
+  margin:20px auto 0;
+}
+
+.paragraph-text {
+  color:black;
+  font-size:16px;
+  font-family: sans-serif;
+  margin:0 0 25px 25px;
+}
+
+.buyer{
+  width:200px;
+  overflow:hidden;
+  display:block;
+  text-align:left;
+  color:black;
+  font-size:16px;
+  font-family: sans-serif;
+  margin:5px auto;
+}
+
+.outer-temp{
+  width:80%;
+  margin:0 auto;
+}
+
+.area{
+  width:45%;
+  color:black;
+  font-size:20px;
+  font-family: sans-serif;
+  text-align:right;
+  float:left;
+}
+.temp{
+  float:right;
+  width:45%;
+  color:black;
+  font-size:20px;
+  font-family: sans-serif;
+  text-align:left;
+}
