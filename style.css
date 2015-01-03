@@ -111,7 +111,19 @@ h2{
   height:100%;
   width:100%;
   background-color:teal;
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
 }
+
+@media (max-width: 992px) {
+  .logo-placeholder{
+    display: block;
+    vertical-align: middle;
+    width: 100%;
+  }
+}
+
 .logo {
   width:100%;
   margin:auto;
@@ -138,6 +150,17 @@ h2{
 
 .nav-placeholder{
   background-color:teal;
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+}
+
+@media (max-width: 992px) {
+  .nav-placeholder{
+    display: block;
+    vertical-align: middle;
+    width: 100%;
+  }
 }
 
 .menu-navbar .menu-dropdown{
