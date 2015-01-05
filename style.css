@@ -103,7 +103,7 @@ h2{
 
 /* Logo */
 .header-section{
-  background-color:red;
+  background-color:white;
   width:100%;
   height:100%;
 }
@@ -134,7 +134,7 @@ h2{
 .navbar{
   width:75%;
   border:none;
-  background-color:tomato;
+  background-color:cadetblue;
   font-family: 'Open Sans', sans-serif;
   display:inline block;
   margin:auto;
@@ -146,10 +146,19 @@ h2{
   font-family: 'Open Sans', sans-serif;
   padding: 0 5px;
   color:black;
+  text-shadow:none;
+}
+
+a:visited{
+  color:white;
+}
+
+a:hover{
+  color:cadetBlue;
 }
 
 .nav-placeholder{
-  background-color:teal;
+  background-color:white;
   display: table-cell;
   vertical-align: middle;
   width: 50%;
@@ -163,8 +172,8 @@ h2{
   }
 }
 
-.menu-navbar .menu-dropdown{
-  background:white;
+.menu-navbar .menu-dropdown .dropdown-menu{
+  background-color:red;
 }
 
 /* Banner */
@@ -222,9 +231,10 @@ h2{
 }
 
 .category-title:hover{
-  color:MidnightBlue;
+  color:midnightBlue;
   }
 
+/* Categorey background
 .text-background {
   height:50px;
   width:90%;
@@ -232,6 +242,15 @@ h2{
   background-color:cadetblue;
   border-bottom-right-radius: 6px;
   border-bottom-left-radius:  6px;
+}*/
+
+.text-background {
+  background-image: url(images/brushstroke.jpg);
+  background-size:250px 45px;
+  width:100%;
+  background-repeat: no-repeat;
+  background-position: center;
+
 }
 
 /* Twitter */
