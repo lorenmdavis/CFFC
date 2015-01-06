@@ -100,44 +100,47 @@ h2{
   vertical-align:25px;
   margin-right:15px;
 }
+.top-contact-text:hover {
+  color:cadetBlue;
+}
 
-/* Logo & Links */
+/* Logo */
 .header-section{
   background-color:white;
+  width:100%;
+  height:100%;
+}
+.logo-placeholder{
+  height:100%;
+  width:100%;
+  background-color:teal;
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+}
+
+@media (max-width: 992px) {
+  .logo-placeholder{
+    display: block;
+    vertical-align: middle;
+    width: 100%;
+  }
 }
 
 .logo {
-  width:75%;
-  margin-right:5%;
-  margin-left:5%;
-  padding:10px;
-
-}
-
-.logo-placeholder{
-  height:160px;
   width:100%;
-  background-color:teal;
+  margin:auto;
+  display:block;
 }
 
 /* Nav Bar */
 .navbar{
-  width:300px;
+  width:75%;
   border:none;
-  vertical-align: middle;
-  background-color:purple;
-  margin-bottom:60px;
-
-}
-
-.menu-navbar .menu-dropdown{
-  background:white;
-}
-
-.nav-placeholder{
-  height:160px;
-  width:100%;
-  background-color:pink;
+  background-color:cadetblue;
+  font-family: 'Open Sans', sans-serif;
+  display:inline block;
+  margin:auto;
 }
 
 .links .a{
@@ -146,6 +149,34 @@ h2{
   font-family: 'Open Sans', sans-serif;
   padding: 0 5px;
   color:black;
+  text-shadow:none;
+}
+
+a:visited{
+  color:white;
+}
+
+a:hover{
+  color:cadetBlue;
+}
+
+.nav-placeholder{
+  background-color:white;
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+}
+
+@media (max-width: 992px) {
+  .nav-placeholder{
+    display: block;
+    vertical-align: middle;
+    width: 100%;
+  }
+}
+
+.menu-navbar .menu-dropdown .dropdown-menu{
+  background-color:red;
 }
 
 /* Banner */
@@ -191,8 +222,15 @@ h2{
   background-size: contain;
   background-color:white;
 }
-
-.category-title {
+/* Backgrounds for 1 & 3 Boxes */
+.brushstroke-background-01 {
+  background-image: url(images/brushstroke01.jpg);
+  background-size:200px 50px;
+  width:100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.category-title-01{
   color:white;
   text-align:center;
   font-size:25px;
@@ -202,10 +240,15 @@ h2{
   letter-spacing:2px;
 }
 
-.category-title:hover{
-  color:MidnightBlue;
-  }
+.category-title-01:hover{
+  background-image: url(images/brushstroke01a.jpg);
+  background-size:200px 50px;
+  width:100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
+/* Categorey background
 .text-background {
   height:50px;
   width:90%;
@@ -213,26 +256,41 @@ h2{
   background-color:cadetblue;
   border-bottom-right-radius: 6px;
   border-bottom-left-radius:  6px;
-}
+}*/
 
-/* Twitter */
-
-.twitter {
-  margin-top:20px;
+/* Backgrounds for 2 & 4 Boxes */
+.brushstroke-background-02 {
+  background-image: url(images/brushstroke02.jpg);
+  background-size:200px 50px;
   width:100%;
-  height:90px;
-  background-color:gainsboro;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-
-.twitter-title{
-  color:black;
-  text-align:left;
+.category-title-02{
+  color:white;
+  text-align:center;
   font-size:25px;
   font-family: 'Open Sans', sans-serif;
-  padding: 10px 0 10px 10px;
+  padding: 5px 0;
+  text-transform:uppercase;
+  letter-spacing:2px;
+}
+
+.category-title-02:hover{
+  background-image: url(images/brushstroke02a.jpg);
+  background-size:200px 50px;
+  width:100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* Company Info */
+
+.info-bg{
+  background-color:silver;
+  height:400px;
+  }
+
 .info-title {
   color:cadetblue;
   text-align:center;
@@ -240,11 +298,10 @@ h2{
   font-family: 'Open Sans', sans-serif;
   padding: 10px 0;
   font-weight:bolder;
-  border-bottom:2px solid cadetblue;
   margin-bottom:10px;
 }
 
-.info-section {
+.info-paragraph {
   height:300px;
   width:90%;
   display: block;
@@ -296,4 +353,21 @@ h2{
   font-size:16px;
   font-family: sans-serif;
   text-align:left;
+}
+
+/* Twitter */
+
+.twitter {
+  margin-top:20px;
+  width:100%;
+  height:90px;
+  background-color:gainsboro;
+}
+
+.twitter-title{
+  color:black;
+  text-align:left;
+  font-size:25px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px 0 10px 10px;
 }
