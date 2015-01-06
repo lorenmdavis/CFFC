@@ -100,6 +100,9 @@ h2{
   vertical-align:25px;
   margin-right:15px;
 }
+.top-contact-text:hover {
+  color:cadetBlue;
+}
 
 /* Logo */
 .header-section{
@@ -219,8 +222,15 @@ a:hover{
   background-size: contain;
   background-color:white;
 }
-
-.category-title {
+/* Backgrounds for 1 & 3 Boxes */
+.brushstroke-background-01 {
+  background-image: url(images/brushstroke01.jpg);
+  background-size:200px 50px;
+  width:100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.category-title-01{
   color:white;
   text-align:center;
   font-size:25px;
@@ -230,9 +240,13 @@ a:hover{
   letter-spacing:2px;
 }
 
-.category-title:hover{
-  color:midnightBlue;
-  }
+.category-title-01:hover{
+  background-image: url(images/brushstroke01a.jpg);
+  background-size:200px 50px;
+  width:100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 /* Categorey background
 .text-background {
@@ -244,33 +258,39 @@ a:hover{
   border-bottom-left-radius:  6px;
 }*/
 
-.text-background {
-  background-image: url(images/brushstroke.jpg);
-  background-size:250px 45px;
+/* Backgrounds for 2 & 4 Boxes */
+.brushstroke-background-02 {
+  background-image: url(images/brushstroke02.jpg);
+  background-size:200px 50px;
   width:100%;
   background-repeat: no-repeat;
   background-position: center;
-
 }
-
-/* Twitter */
-
-.twitter {
-  margin-top:20px;
-  width:100%;
-  height:90px;
-  background-color:gainsboro;
-}
-
-.twitter-title{
-  color:black;
-  text-align:left;
+.category-title-02{
+  color:white;
+  text-align:center;
   font-size:25px;
   font-family: 'Open Sans', sans-serif;
-  padding: 10px 0 10px 10px;
+  padding: 5px 0;
+  text-transform:uppercase;
+  letter-spacing:2px;
+}
+
+.category-title-02:hover{
+  background-image: url(images/brushstroke02a.jpg);
+  background-size:200px 50px;
+  width:100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* Company Info */
+
+.info-bg{
+  background-color:silver;
+  height:400px;
+  }
+
 .info-title {
   color:cadetblue;
   text-align:center;
@@ -278,11 +298,10 @@ a:hover{
   font-family: 'Open Sans', sans-serif;
   padding: 10px 0;
   font-weight:bolder;
-  border-bottom:2px solid cadetblue;
   margin-bottom:10px;
 }
 
-.info-section {
+.info-paragraph {
   height:300px;
   width:90%;
   display: block;
@@ -334,4 +353,21 @@ a:hover{
   font-size:16px;
   font-family: sans-serif;
   text-align:left;
+}
+
+/* Twitter */
+
+.twitter {
+  margin-top:20px;
+  width:100%;
+  height:90px;
+  background-color:gainsboro;
+}
+
+.twitter-title{
+  color:black;
+  text-align:left;
+  font-size:25px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px 0 10px 10px;
 }
