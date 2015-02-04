@@ -71,9 +71,11 @@ h2{
 .top-contact {
   width:100%;
   height:60px;
-  background-color:silver;
+  background:silver;
   text-align:right;
+  box-shadow:0px -1px 8px 2px dimGray;
 }
+
 .facebook {
   height:40px;
   width:40px;
@@ -109,14 +111,15 @@ h2{
   background-color:white;
   width:100%;
   height:100%;
+  box-shadow:0px -1px 8px 2px dimGray;
 }
 .logo-placeholder{
   height:100%;
   width:100%;
-  background-color:teal;
   display: table-cell;
   vertical-align: middle;
   width: 50%;
+  padding-left:20px;
 }
 
 @media (max-width: 992px) {
@@ -183,7 +186,7 @@ a:hover{
 
 .banner{
   width:100%;
-  height:300px;
+  height:270px;
   background: url(images/Thailand-Ko-Phangan.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -224,7 +227,7 @@ a:hover{
 }
 /* Backgrounds for 1 & 3 Boxes */
 .brushstroke-background-01 {
-  background-image: url(images/brushstroke01.jpg);
+  background-image: url(images/stroke01.png);
   background-size:200px 50px;
   width:100%;
   background-repeat: no-repeat;
@@ -241,7 +244,7 @@ a:hover{
 }
 
 .category-title-01:hover{
-  background-image: url(images/brushstroke01a.jpg);
+  background-image: url(images/stroke01_hover.png);
   background-size:200px 50px;
   width:100%;
   background-repeat: no-repeat;
@@ -256,11 +259,12 @@ a:hover{
   background-color:cadetblue;
   border-bottom-right-radius: 6px;
   border-bottom-left-radius:  6px;
+  text-shadow:5px 5px 5px 5px black;
 }*/
 
 /* Backgrounds for 2 & 4 Boxes */
 .brushstroke-background-02 {
-  background-image: url(images/brushstroke02.jpg);
+  background-image: url(images/stroke02.png);
   background-size:200px 50px;
   width:100%;
   background-repeat: no-repeat;
@@ -277,42 +281,47 @@ a:hover{
 }
 
 .category-title-02:hover{
-  background-image: url(images/brushstroke02a.jpg);
+  background-image: url(images/stroke02_hover.png);
   background-size:200px 50px;
   width:100%;
   background-repeat: no-repeat;
   background-position: center;
 }
+/*Learn More Separator Bar*/
+
+.learn-more {
+  width:100%;
+  height:30px;
+  background:linear-gradient(to bottom, rgba(95,158,160,0.5), white);
+  margin-top:20px;
+}
+
 
 /* Company Info */
 
-.info-bg{
-  background-color:silver;
-  height:400px;
-  }
-
 .info-title {
-  color:cadetblue;
+  text-shadow:1px 1px 5px white;
+  color:cadetBlue;
   text-align:center;
   font-size:30px;
   font-family: 'Open Sans', sans-serif;
-  padding: 10px 0;
   font-weight:bolder;
   margin-bottom:10px;
+
 }
 
 .info-paragraph {
   height:300px;
   width:90%;
   display: block;
-  margin:20px auto 0;
+  margin:0 auto;
 }
 
 .info-links {
   height:150px;
   width:90%;
   display: block;
-  margin:20px auto 0;
+  margin:0 auto ;
 }
 
 .paragraph-text {
@@ -361,7 +370,7 @@ a:hover{
   margin-top:20px;
   width:100%;
   height:90px;
-  background-color:gainsboro;
+  background-color:cadetBlue;
 }
 
 .twitter-title{
